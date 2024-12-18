@@ -18,7 +18,12 @@ export default function Home() {
          <li><h3 className="text-5xl font-bold mt-4"> food Quality</h3></li>
          <li><p className="mt-7 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
          Varius sed pharetra dictum neque massa congue</p></li>
-         <li><button className="text-white bg-orange-500 hover:text-orange-500 hover:font-semibold hover:bg-white hover:border-2 hover: border-orange-500 rounded-full w-28 h-11 mt-7">See Menu</button></li>
+        
+         <li>
+         <Link href="/">
+         <button className="text-white bg-orange-500 hover:text-orange-500 hover:font-semibold hover:bg-white hover:border-2 hover: border-orange-500 rounded-full w-28 h-11 mt-7">See Menu</button>
+         </Link>
+         </li>
         </ul>
 
         <ul>
@@ -61,11 +66,11 @@ export default function Home() {
       </ul>
       
 
-      <ul className="">
+      <ul>
         <li><Image width={440} height={0} className="rounded-md" src="/anda222.jpg" alt="Egg Dish"/></li>
-        <li className="flex mt-3">
-        <Image width={211} height={0} className="rounded-md" src="/dish333.jpg" alt="Egg Yummy dish"/>
-        <Image width={211} height={0} className="ml-3 rounded-md" src="/dish113.jpg" alt="Sandwich Dish"/>
+        <li className="flex mt-3 w-full">
+        <Image width={212} height={0} className="rounded-md" src="/dish333.jpg" alt="Egg Yummy dish"/>
+        <Image width={212} height={0} className="ml-3 rounded-md" src="/dish113.jpg" alt="Sandwich Dish"/>
         </li>
       </ul>
     </section>
@@ -85,15 +90,22 @@ export default function Home() {
       <h2>oose Food Iteam</h2></li>
       </ul>
       <ul className="flex mt-10 gap-4 justify-center">
-        <li><Link href=""> <Image className="w-52 h-52 hover:w-52 rounded-md" width={200} height={0} src="/dish210.jpg" alt="Yummy dish"/></Link> 
+        <li id="1">
+          <Link href="/menu"> <Image className="w-52 h-52 hover:w-52 rounded-md" width={200} height={0} src="/dish210.jpg" alt="Yummy dish"/></Link> 
         </li>
-        <li> 
-          <Link href=""><Image className="hover:w-56 rounded-md w-52 h-52" width={200} height={0} src="/burger10.jpg" alt="burger "/></Link>
+
+        <li id="2"> 
+          <Link href="/menu"><Image className="hover:w-56 rounded-md w-52 h-52" width={200} height={0} src="/burger10.jpg" alt="burger "/></Link>
         </li>
-        <li> <Link href=""> <Image className="hover:w-52 rounded-md w-52 h-52" width={200} height={0} src="/dish3333.jpg" alt="Yummy dish"/></Link>
+
+        <li id="3">
+           <Link href="/menu"> <Image className="hover:w-52 rounded-md w-52 h-52" width={200} height={0} src="/dish3333.jpg" alt="Yummy dish"/></Link>
         </li>
-        <li><Link href=""> <Image className="hover:w-52 rounded-md w-52 h-52" width={100} height={10} src="/doonat0.jpg" alt="donat"/></Link>
+
+        <li id="4">
+          <Link href="/menu"> <Image className="hover:w-52 rounded-md w-52 h-52" width={100} height={10} src="/doonat0.jpg" alt="donat"/></Link>
         </li>
+        
         </ul>
     </section>
 
@@ -182,35 +194,37 @@ export default function Home() {
 
 
 <section>
-  <div className="relative h-80  bg-cover bg-center mt-24 bg-[url('/machlii.jpg')] w-screen">
+  <div className="relative h-80  bg-cover bg-center mt-24 bg-[url('/machlii.jpg')] w-screen brightness-200">
   <div className="absolute inset-0 bg-black bg-opacity-90 items-center justify-center">
 
 
 
     <ul className="flex justify-around mx-20 text-center items-center mt-20">
-      <li id="one" className="text-orange-500 font-semibold place-items-center">
-      <Link id="id=one" href=""><Image className="w-24 rounded-md mt-3 invert" width={100} height={0} src="/chef-hat0.png" alt="chef-hat" />
-      <h5 className="mt-3">Professional Chefs</h5>
+      
+      <li id="one" className="text-orange-700 font-semibold">
+      <Link id="id=one" href="">
+      <Image className="w-24 rounded-md mt-3 invert" width={100} height={0} src="/chef-hat0.png" alt="chef-hat" />
+      <h5 className="mt-5">Professional Chefs</h5>
       <h6 className="font-semibold mt-1 text-2xl ">420</h6>
       </Link>
       </li>
 
-      <li id="two" className="text-orange-500 place-items-center font-semibold">
-      <Link id="id=image six" href=""><Image className="w-20 rounded-md mt-3 invert" width={100} height={0} src="/burger&drink0.png" alt="chef-hat" />
-      <h5 className="mt-3 ">Items Of Food</h5>
+      <li id="two" className="text-orange-700 font-semibold">
+      <Link id="id=image six" href="/menu"><Image className="w-20 rounded-md mt-3 invert" width={100} height={0} src="/burger&drink0.png" alt="chef-hat" />
+      <h5 className="mt-5 ">Items Of Food</h5>
       <h6 className="mt-1 text-2xl ">320</h6></Link>
       </li>
 
-      <li id="three" className="text-orange-500 place-items-center font-semibold ">
+      <li id="three" className="text-orange-700 font-semibold ">
       <Link href=""><Image className="w-20 rounded-md mt-3 invert" width={100} height={0} src="/fork0.png" alt="chef-hat" />
-      <h5 className="mt-3">Years Of Experienced</h5>
+      <h5 className="mt-5">Years Of Experienced</h5>
       <h6 className="font-semibold mt-1 text-2xl ">30+</h6>
       </Link>
       </li>
 
-      <li id="four" className="text-orange-500 place-items-center font-semibold">
+      <li id="four" className="text-orange-700 font-semibold">
       <Link href=""><Image className="w-20 rounded-md mt-3 invert" width={100} height={0} src="/pizza0.png" alt="chef-hat" />
-      <h5 className="mt-3">Happy Costomers</h5>
+      <h5 className="mt-5">Happy Costomers</h5>
       <h6 className=" mt-1 text-2xl ">220</h6>
       </Link>
       </li>
