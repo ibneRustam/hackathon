@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-// import { MailIcon } from '@heroicons/react/solid';
+
 
 export default function Home() {
   return (
@@ -284,7 +284,8 @@ export default function Home() {
 
       <Link id="two"  href="/">
       <ul className="flex gap-2 items-center mt-3">
-      <li><Image className="w-14 h-14 rounded-md " width={100} height={0}  src="/burger222.jpg" alt="dish" />
+      <li>
+        <Image className="w-14 h-14 rounded-md " width={100} height={0}  src="/burger222.jpg" alt="dish" />
       </li>
       <li>
         <h3 className="font-semibold text-sm">Fresh Breakfast</h3>

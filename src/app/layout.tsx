@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link"
 import Image from "next/image";
@@ -26,6 +24,8 @@ export default function RootLayout({
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/pages">Pages</Link> </li>
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/about">About</Link> </li>
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/shop">Shop</Link> </li>
+              
+              
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/contact">Contact</Link> </li>
             </ul>
 
@@ -49,13 +49,14 @@ export default function RootLayout({
               <h3 className="text-orange-500"> St</h3>
               <h3>ill You Need Our Support ?</h3>
             </li>
-            <li className="mt-3">Don't wait make a smart & logical quote here. Its pretty easy.</li>
+            <li className="mt-3">Don&apost wait make a smart & logical quote here. Its pretty easy.</li>
             </ul>
-            <ul>
-            <input className="w-60 h-12 rounded-s-md bg-orange-500 hover:font-semibold hover:text-white" type="email" placeholder=" Enter Your Email"></input>
-            <button className="bg-white text-orange-500 w-36 h-12 rounded-md hover:font-semibold">
+
+            <ul className="flex  items-center">
+           <li> <input className="w-60 h-12 bg-orange-500 hover:font-semibold hover:text-white rounded-s-md" type="email" placeholder=" Enter Your Email"></input></li>
+           <li><button className="bg-white text-orange-500 w-36 h-12 hover:font-semibold rounded-r-md">
               Subscribe Now
-            </button>
+            </button></li>
             </ul>
           </div>
 
@@ -69,7 +70,7 @@ export default function RootLayout({
                 <p className="mt-3 font-thin">orpprate clients and leisure travelers has been relying on Groundlink for dependab safe, and professional chauffeured car service in major cities across World</p> 
                 <div className="flex mt-10 gap-4 items-center">
                 <ul>
-                <li className="bg-orange-500 rounded-md w-16 h-16"><Image className="invert " width={65} height={0} src="/time0.png" alt="opening time"/></li>
+                <li className="bg-orange-500 rounded-md py-3 px-3 w-16 h-16"><Image className="invert " width={65} height={0} src="/time0.png" alt="opening time"/></li>
                  </ul>
                 <ul>
                 <li><h3>Opening Hourse</h3></li>
@@ -134,23 +135,23 @@ export default function RootLayout({
               <li className="text-lg mt-9"><h4>Copyright &copy ; 2022 by Ayeman. All Rights Reserved</h4></li>
               <li className="flex gap-5 mt-9">
                 <Link href="https://www.facebook.com/" target="new window">
-              <Image className="bg-white rounded-md" width={40} height={0} src="/facebook0.png" alt="Facebook"/>
+              <Image className="bg-white rounded-md py-2 px-2 w-10 h-10" width={40} height={0} src="/facebook0.png" alt="Facebook"/>
               </Link>
 
               <Link href="https://www.twitter.com/" target="new window">
-              <Image className="bg-white rounded-md"  width={40} height={0} src="/twitter0.png" alt="Twitter"/>
+              <Image className="bg-white rounded-md py-2 px-2 w-10 h-10"  width={40} height={0} src="/twitter0.png" alt="Twitter"/>
               </Link>
 
               <Link href="https://www.instagram.com/" target="new window">
-              <Image className="bg-white rounded-md" width={40} height={0} src="/instagram0.png" alt="Instagram"/>
+              <Image className="bg-white rounded-md py-2 px-2 w-10 h-10" width={40} height={0} src="/instagram0.png" alt="Instagram"/>
               </Link>
 
               <Link href="https://www.youtube.com/" target="new window">
-              <Image className="bg-white rounded-md" width={40} height={0} src="/youtube0.png" alt="Youtube"/>
+              <Image className="bg-white rounded-md py-2 px-2 w-10 h-10" width={40} height={0} src="/youtube0.png" alt="Youtube"/>
               </Link>
 
               <Link href="https://www.pinterest.com/" target="new window">
-              <Image className="bg-white rounded-md" width={40} height={0} src="/pinterest0.png" alt="Pinterest"/>
+              <Image className="bg-white rounded-md py-2 px-2 w-10 h-10" width={40} height={0} src="/pinterest0.png" alt="Pinterest"/>
               </Link>
 
               </li>
