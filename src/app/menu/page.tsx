@@ -230,7 +230,7 @@ export default function Menu () {
 
         <div className="flex gap-12 mx-auto mr-6">
             <Link href="/shop">
-            <Image className=" h-full" width={420} height={0} src="/dessert.jpeg" alt=""/>
+            <Image className=" h-full" width={420} height={0} src="/dessert1.jpeg" alt=""/>
             </Link>
             
 
@@ -385,7 +385,7 @@ export default function Menu () {
             </div>
             
             <Link href="/shop">
-            <Image className=" h-full" width={420} height={0} src="/drinks.jpeg" alt=""/>
+            <Image className=" h-full" width={420} height={0} src="/drinks1.jpeg" alt=""/>
             </Link>
         </div>
 <br></br>

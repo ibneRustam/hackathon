@@ -28,7 +28,7 @@ export default function Home() {
 
         <ul>
         <li>
-          <Image width={500} height={0} src="/egg.jpg" alt="Egg"/>
+          <Image width={500} height={0} src="/12345.jpg" alt="Egg"/>
         </li>
         </ul>
         <br></br>
@@ -265,7 +265,7 @@ export default function Home() {
 
   <div className="flex gap-10 mt-12 items-center">
 
-    <Link href="/menu"><Image className="rounded-md mt-3" width={360} height={0} src="/ddish0.jpg" alt="chef-hat" /></Link>
+    <Link href="/menu"><Image className="rounded-md mt-3" width={360} height={0} src="/6789.jpg" alt="chef-hat" /></Link>
 
     <div className="flex gap-10">
       <ul>

@@ -151,7 +151,7 @@ export default function Shop () {
 
                         <li id="two">
                             <Link  href="/detail" className="group">
-                            <ul className="mt-8 relative flex justify-center items-end  bg-[url('/drinks.jpeg')] bg-cover h-60 w-60 bg-left ">
+                            <ul className="mt-8 relative flex justify-center items-end  bg-[url('/drinks1.jpeg')] bg-cover h-60 w-60 bg-left ">
                            
                             <li id="one" className="absolute bottom-16 left-16 opacity-0 group-hover:opacity-100 bg-white p-1 ">
                                 <Image width={20} height={0} src="/shareother.png" alt=""/>
@@ -308,7 +308,7 @@ export default function Shop () {
 
                         <li id="two">
                             <Link  href="/detail" className="group">
-                            <ul className="mt-8 relative flex justify-center items-end  bg-[url('/drinks.jpeg')] bg-cover h-60 w-60 bg-left ">
+                            <ul className="mt-8 relative flex justify-center items-end  bg-[url('/drinks1.jpeg')] bg-cover h-60 w-60 bg-left ">
                            
                             <li id="one" className="absolute bottom-16 left-16 opacity-0 group-hover:opacity-100 bg-white p-1 ">
                                 <Image width={20} height={0} src="/shareother.png" alt=""/>
@@ -588,7 +588,7 @@ export default function Shop () {
 
                             <Link href="/detail">
                             <div id="two cupchake" className="flex items-center mt-5 gap-3">
-                                <Image className=" w-14 h-14 rounded-sm" width={100} height={0} src="/Dessert.jpeg" alt=""/>
+                                <Image className=" w-14 h-14 rounded-sm" width={100} height={0} src="/dessert1.jpeg" alt=""/>
                                 <div>
                                     <h3>Cupchake</h3>
                                     <ul className="flex">
