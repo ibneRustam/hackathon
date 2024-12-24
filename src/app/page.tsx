@@ -62,7 +62,6 @@ export default function Home() {
 
     <li className="flex items-center space-x-2 text-gray-950 md:text-xl sm:text-lg lg:text-4xl font-bold">
       <h2 className="text-orange-500">We</h2>
-      <h2>-</h2>
       <h2 className="text-white" >Create the best</h2>
     </li>
 
@@ -138,7 +137,7 @@ export default function Home() {
         <Image
           width={245}
           height={150}
-          className="rounded-md object-cover w-full h-44"
+          className="rounded-md object-cover w-full h-auto"
           src="/dish333.jpg"
           alt="Egg Yummy Dish"
         />
@@ -147,7 +146,7 @@ export default function Home() {
         <Image
           width={250}
           height={150}
-          className="rounded-md object-cover w-full h-44"
+          className="rounded-md object-cover w-full h-auto"
           src="/dish113.jpg"
           alt="Sandwich Dish"
         />
