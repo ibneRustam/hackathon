@@ -10,14 +10,14 @@ export default function RootLayout({
 
 
 
-    <html className="mx-auto"  lang="en">
+    <html className="mx-auto items-center"  lang="en">
       <body className="bg-gray-950 text-white">
         <div className="flex font-bold justify-center mx-24 text-4xl mt-10">
           <h1 className="text-orange-500"> Food   </h1>
           <h2 >tuck </h2>
           </div>
-          <nav className="flex mx-24 justify-between mt-7">
-            <ul className="flex gap-9 px-28 ">
+          <nav className="flex flex-wrap  justify-between items-center mx-4 md:mx-24 mt-7">
+            <ul className="flex flex-wrap gap-4 md:gap-9">
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/">Home</Link> </li>
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/menu">Menu</Link> </li>
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/blog">Blog</Link> </li>
@@ -42,8 +42,9 @@ export default function RootLayout({
 
         {/* <footer> */}
 
-        <footer className="mx-24 mt-24">
-          <div className=" mx-3 flex justify-between">       
+        <footer className="mx-4  md:mx-24 mt-24">
+          <div className="items-center">
+          <div className="flex flex-col md:flex-row justify-between  gap-8">       
                 <ul className="items-center">
             <li className="flex text-3xl font-bold">
               <h3 className="text-orange-500"> St</h3>
@@ -129,9 +130,11 @@ export default function RootLayout({
             </div>
 
 
+            </div>
+
             
-            <div className="bg-gray-700 w-screen mt-44 ">
-            <ul className="flex justify-around items-center ">
+            <div className="bg-gray-700 mt-12">
+            <ul className="flex flex-col md:flex-row justify-center md:justify-around items-center text-center">
               <li className="text-lg mt-9"><h4>Copyright &copy ; 2022 by Ayeman. All Rights Reserved</h4></li>
               <li className="flex gap-5 mt-9">
                 <Link href="https://www.facebook.com/" target="new window">
