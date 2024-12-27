@@ -1,6 +1,25 @@
 import "./globals.css";
 import Link from "next/link"
 import Image from "next/image";
+
+
+import {
+  Sheet,
+  SheetPortal,
+  SheetOverlay,
+  SheetTrigger,
+  SheetClose,
+  SheetContent,
+  SheetHeader,
+  SheetFooter,
+  SheetTitle,
+  SheetDescription,
+} from "@/components/ui/sheet"
+
+
+
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -10,14 +29,70 @@ export default function RootLayout({
 
 
 
-    <html className="mx-auto items-center"  lang="en">
+    <html className="max-auto items-center"  lang="en">
       <body className="bg-gray-950 text-white">
         <div className="flex font-bold justify-center mx-24 text-4xl mt-10">
           <h1 className="text-orange-500"> Food   </h1>
           <h2 >tuck </h2>
           </div>
-          <nav className="flex flex-wrap  justify-between items-center mx-4 md:mx-24 mt-7">
-            <ul className="flex flex-wrap gap-4 md:gap-9">
+
+
+<ul className="lg:hidden">
+          <div id="humburger icon" >
+          <Sheet>
+        <SheetTrigger>
+          <Image className="ml-5" width={30} height={0} src="/menuicon.png" alt="Menu Icon"/>
+        </SheetTrigger>
+        
+        
+        <SheetContent>
+          <SheetHeader>
+            <SheetTitle>
+
+            </SheetTitle>
+          </SheetHeader>
+          <SheetDescription>
+
+<div className="flex justify-between">
+          <ul className="text-center mt-3 ">
+
+              <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/">Home</Link> </li>
+
+              <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/menu">Menu</Link> </li>
+
+              <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/blog">Blog</Link> </li>
+
+              <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/pages">Pages</Link> </li>
+
+              <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/about">About</Link> </li>
+
+              <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/shop">Shop</Link> </li>
+
+              
+              
+              <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/contact">Contact</Link> </li>
+
+            </ul>
+
+            <ul>
+
+            </ul>
+
+            </div>
+
+          </SheetDescription>
+          <SheetFooter>
+            <SheetClose>Close</SheetClose>
+          </SheetFooter>
+        </SheetContent>
+      </Sheet>
+      <main>{children}</main>
+
+          </div>
+          </ul>
+
+          <nav className=" flex justify-between items-center mx-24 mt-7 ">
+            <ul className="flex gap-4 ">
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/">Home</Link> </li>
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/menu">Menu</Link> </li>
               <li className="hover:text-orange-500 hover:font-semibold hover:text-lg"><Link href="/blog">Blog</Link> </li>

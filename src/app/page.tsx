@@ -70,46 +70,46 @@ export default function Home() {
     </h3>
 
     <li>
-      <p className="lg:text-lg md:text-base sm:text-sm text-justify mt-4">
+      <p className="lg:text-lg md:text-base sm:text-sm text-justify mt-6">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex sunt
         numquam quam consequatur nostrum unde maxime, earum at totam expedita.
         Molestiae in ab, nihil cumque blanditiis eos sit natus.
       </p>
     </li>
 
-    <li id="one" className="flex items-start lg:text-base md:text-sm sm:text-xs mt-6">
+    <li id="one" className="flex justify-start items-start gap-3  lg:text-base md:text-sm sm:text-xs mt-6">
       <Image
         width={30}
         height={30}
-        className="lg:w-6 lg:h-6 md:w-4 md:h-4 sm:w-3 sm:h-3"
+        className="lg:w-6 w-5 lg:h-6 md:w-4 md:h-4 sm:w-3 sm:h-3 mt-1"
         src="/checkh.png"
         alt="checkmark symbol"
       />
-      <h5 className="ml-2">Lacus nisi, et ac dapibus sit eu velit in consequat.</h5>
+      <h5>Lacus nisi, et ac dapibus sit eu velit in consequat.</h5>
     </li>
 
-    <li id="two" className="flex items-start lg:text-base md:text-sm sm:text-xs mt-6">
+    <li id="two" className="flex justify-start items-start gap-3 lg:text-base md:text-sm sm:text-xs mt-6">
       <Image
         width={30}
         height={30}
-        className="lg:w-6 lg:h-6 md:w-4 md:h-4 sm:w-3 sm:h-3"
+        className="lg:w-6 w-5 lg:h-6 md:w-4 md:h-4 sm:w-3 sm:h-3 mt-1"
         src="/checkh.png"
         alt="checkmark symbol"
       />
-      <h5 className="ml-2">
+      <h5>
         Quisque diam pellentesque bibendum non dui volutpat fringilla.
       </h5>
     </li>
 
-    <li id="three" className="flex items-start lg:text-base md:text-sm sm:text-xs mt-6">
+    <li id="three" className="flex justify-start items-start gap-3 lg:text-base md:text-sm sm:text-xs mt-6">
       <Image
         width={30}
         height={30}
-        className="lg:w-6 lg:h-6 md:w-4 md:h-4 sm:w-3 sm:h-3"
+        className="lg:w-6 w-5 lg:h-6 md:w-4 md:h-4 sm:w-3 sm:h-3 mt-1"
         src="/checkh.png"
         alt="checkmark symbol"
       />
-      <h5 className="ml-2">
+      <h5>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </h5>
     </li>
@@ -240,7 +240,7 @@ export default function Home() {
       <h3 className="font-black text-orange-500 lg:hidden md:block md:text-xl sm:text-lg text-hidden">Why Chose us</h3>
       <div className="mt-5 lg:grid grid-cols-2 md:grid-col-1 gap-24">
         <ul>
-        <ul className="flex lg:gap-2 md:gap-2 sm:gap-2 items-end object-cover">
+        <ul className="flex lg:gap-2 md:gap-2 sm:gap-2 gap-2 items-end object-cover">
         <li id="image one">
            <Link href="/"> 
            <Image className="hover:w-80 w-72 h-auto rounded-md" width={280} height={0} src="/dish777.jpg" alt="Yummy dish"/></Link>
@@ -251,7 +251,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <ul className="flex lg:gap-2 md:gap-2 sm:gap-2  lg:mt-2 md:mt-2 sm:mt-2  items-start object-cover">
+        <ul className="flex lg:gap-2 md:gap-2 sm:gap-2 gap-2  lg:mt-2 md:mt-2 sm:mt-2 mt-2  items-start object-cover">
           <li id="id=image three">
             <Link href=""><Image className="hover:w-52 rounded-md" width={200} height={0} src="/dish999.jpg" alt="Dish"/></Link>
              </li>
@@ -263,7 +263,7 @@ export default function Home() {
              <li id="image five">
              <Link href=""><Image className="hover:w-36 rounded-md" width={130} height={0} src="/dish444.jpg" alt="dish "/></Link>
 
-             <Link id="id=image six" href="/"><Image className="hover:w-36 rounded-md lg:mt-2 md:mt-2 sm:mt-2" width={130} height={0} src="/dish202.jpg" alt=" dish"/></Link>
+             <Link id="id=image six" href="/"><Image className="hover:w-36 rounded-md lg:mt-2 md:mt-2 mt-2 sm:mt-2" width={130} height={0} src="/dish202.jpg" alt=" dish"/></Link>
              </li>
         </ul>
         </ul>
@@ -272,32 +272,32 @@ export default function Home() {
 
         <ul>
           <li className="font-black text-orange-500 sm:text-sm lg:text-2xl md:hidden sm:hidden hidden lg:block mt-6">Why Chose us</li>
-          <li className=" lg:text-4xl md:text-2xl sm:text-lg font-bold mt-4 flex ">
+          <li className=" lg:text-4xl md:text-2xl text-xl sm:text-lg font-bold mt-4 flex ">
           <h2 className="text-orange-500">Ex</h2>
             <h2>ta ordinary taste</h2>
           </li>
           <li>
-            <h2 className=" lg:text-4xl md:text-2xl sm:text-lg font-bold mt-1">And Experienced</h2>
+            <h2 className="text-xl lg:text-4xl md:text-2xl sm:text-lg font-bold mt-1">And Experienced</h2>
             </li>
             <li>
               <p className="mt-7 lg:text-lg md:text-base sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloribus omnis libero illo soluta quae ut necessitatibus ipsum fugiat vitae corporis voluptatum, error aperiam fugit quas atque dolorum veniam dicta.</p>
             </li>
 
-            <div className="flex lg:gap-10 md:gap-6 sm:gap-4 mt-14 ">
+            <div className="flex lg:gap-10 md:gap-6 sm:gap-4 gap-3 mt-14 ">
             <li className="place-items-center">
-            <Link id="id=image one" href="">
+            <Link id="image one" href="/menu">
             <Image className="hover:w-16 w-14 bg-sky-500 rounded-md px-1 py-1 mt-3 invert  " width={50} height={0} src="/burgericon0.png" alt=" icon" /></Link>
             <h5 className="lg:text-sm md:text-xs sm:text-xs text-center mt-1">Fast Food</h5>
             </li>
 
             <li className="place-items-center">
-            <Link id="id=image two" href="">
+            <Link id="id=image two" href="/menu">
             <Image className="hover:w-16  w-14 rounded-md mt-3 bg-sky-500 px-1 py-1 invert" width={50} height={0} src="/lunch0.png" alt="icon" /></Link>
             <h5 className="lg:text-sm md:text-xs sm:text-xs text-center mt-1">Lunch</h5>
             </li>
 
             <li className="place-items-center">
-            <Link id="id=image three" href="">
+            <Link id="id=image three" href="/menu">
             <Image className="hover:w-16 w-14 rounded-md mt-3 bg-sky-500 px-1 py-1 invert" width={50} height={0} src="/dinnerr0.png" alt="icon" /></Link>
             <h5 className="lg:text-sm md:text-xs sm:text-xs text-center mt-1">Dinner</h5>
             </li>
@@ -327,7 +327,7 @@ export default function Home() {
 
 
 
-    <ul className="flex justify-around gap-3 lg:gap-6 md:gap-3 sm:gap-2 mx-20 text-center mt-20">
+    <ul className="flex justify-between gap-4 lg:gap-6 md:gap-3 sm:gap-2 mx-16 text-center mt-20">
       
       <li id="one" className="flex flex-col items-center justify-center text-orange-700 font-semibold">
       <Link  href="">
@@ -373,7 +373,7 @@ export default function Home() {
 
 
   <h3 className="font-black text-orange-500 sm:text-sm lg:text-2xl text-center">Choose & pick</h3>
-  <ul className="text-4xl font-bold mt-3 flex  justify-center">
+  <ul className="text-2xl lg:text-4xl md:text-2xl sm:text-xl font-bold mt-3 flex  justify-center">
   <h2 className="text-orange-500">Fr</h2>
   <h2>om Our Menu</h2>
   </ul>
@@ -610,7 +610,7 @@ export default function Home() {
     <Image className="mx-auto mt-7" width={50}  height={50} src="/comment01.png" alt="Comment"/>
     
   
-            <p className="text-center text-base sm:text-xs md:text-sm lg:text-base mx-28 mt-7">
+            <p className="text-center text-base sm:text-xs md:text-sm lg:text-base mx-28 mt-7 ">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore impedit perferendis esse deserunt itaque? Quo voluptatum vero iste quas necessitatibus, dolorem libero similique maiores non mollitia ex excepturi ullam debitis. 
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facilis nihil unde deleniti? Aut error sed, necessitatibus, placeat illum voluptate quod similique laudantium numquam officia sunt ducimus minima magnam labore.
       </p>
